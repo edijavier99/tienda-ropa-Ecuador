@@ -1,0 +1,10 @@
+.navbar{
+    background-color: black;
+    height: 100px;
+}
+@media (max-width: 470px){
+    .navbar{
+
+        height: auto !important;
+    }
+}

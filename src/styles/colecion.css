@@ -1,0 +1,32 @@
+.colecionBoard{
+    height: 500px;
+    width: 70%;
+    transform: translateY(-10%);
+}
+.colecionImagen{
+    height: 100%;
+}
+.colecionImagen img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.colecionDescription{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 480px){
+    .colecionBoard{
+       flex-direction: column !important;
+       width: 90%;
+       padding:0;
+       height: auto !important;
+    }
+    .colecionBoard h1{
+      margin-top: 30px;
+    }
+}
